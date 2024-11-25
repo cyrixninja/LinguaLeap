@@ -1,0 +1,17 @@
+{
+    "id": "lingualeap",
+    "name": "LinguaLeap",
+    "author": "cyrixninja",
+    "description": "Brief description of your app",
+    "image": "/plugins/logos/lingualeap.png",
+    "capabilities": [
+      "external_integration"
+    ],
+    "external_integration": {
+      "triggers_on": "transcript_processed",
+      "webhook_url": "https://your-endpoint-url.com",
+      "setup_completed_url": "https://your-setup-completion-url.com",
+      "setup_instructions_file_path": "/apps/instructions/your-app/README.md"
+    },
+    "deleted": false
+  }

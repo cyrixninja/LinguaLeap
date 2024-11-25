@@ -1,2 +1,4 @@
 # LinguaLeap
-Plugin for Omi Friend
+![Omi Plugin Banner](/assets/Banner.png)
+## Features 
+
