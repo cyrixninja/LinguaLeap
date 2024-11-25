@@ -9,9 +9,15 @@
     ],
     "external_integration": {
       "triggers_on": "transcript_processed",
-      "webhook_url": "https://your-endpoint-url.com",
-      "setup_completed_url": "https://your-setup-completion-url.com",
-      "setup_instructions_file_path": "/apps/instructions/your-app/README.md"
+      "webhook_url": "https://lingua-leap-mv96vyxyr-cyrixninjas-projects.vercel.app/transcript",
+      "setup_completed_url": "https://lingua-leap-mv96vyxyr-cyrixninjas-projects.vercel.app/setup_status",
+      "setup_instructions_file_path": "/apps/instructions/your-app/README.md",
+      "auth_steps": [
+        {
+          "name": "Setup LinguaLeap",
+          "url": "https://lingua-leap-mv96vyxyr-cyrixninjas-projects.vercel.app/login"
+        }
+      ]
     },
     "deleted": false
   }
